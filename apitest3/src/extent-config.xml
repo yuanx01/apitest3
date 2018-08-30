@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>standard</theme>
+        <encoding>UTF-8</encoding>
+        <protocal>https</protocal>
+        <documentTitle>自动化测试报告 - v1.0.0</documentTitle>
+        <reportName>api自动化测试报告</reportName>
+        <reportHeadline> - v1.0.0</reportHeadline>
+        <dataFormat>yyyy-MM-dd</dataFormat>
+        <timeFormat>HH:mm:ss</timeFormat>
+        <scripts>
+            <![CDATA[
+            $(document).ready(function(){
+            });
+            ]]>
+        </scripts>
+        <styles>
+            <![CDATA[
+
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="接口测试" parallel="false">
+    <parameter name="system.onfo" value="src/test/testerListen.MysystemInfo" />
+    <test name="Register">
+        <classes>
+            <class name="test.demo7"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="testerListen.ExtentTestNGIReporterListener"/>
+    </listeners>
+        </suite>
